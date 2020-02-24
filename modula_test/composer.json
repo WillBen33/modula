@@ -1,0 +1,18 @@
+{
+    "name": "wilfrid/modula",
+    "authors": [
+        {
+            "name": "Wilfrid Benoit",
+            "email": "wilfrid.benoit@outlook.fr"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "Views\\": "views/",
+          "Controllers\\": "controllers/",
+          "Models\\": "models/",
+          "Services\\": "services/"
+        }
+      }
+}
